@@ -1,0 +1,4 @@
+{
+  "/page": "app/page.js",
+  "/api/go/yorost/route": "app/api/go/yorost/route.js"
+}
