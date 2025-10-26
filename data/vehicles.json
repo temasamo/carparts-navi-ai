@@ -1,0 +1,130 @@
+{
+  "vehicles": [
+    {
+      "model": "プリウス",
+      "generation": "3代目",
+      "yearRange": "2009-2015",
+      "engineCode": "2ZR-FXE",
+      "bodyCode": "ZVW30",
+      "commonParts": [
+        {
+          "name": "オイルフィルター",
+          "category": "oil-filter",
+          "partNumbers": ["90915-YZZD1", "90915-YZZD2"],
+          "description": "エンジンオイルフィルター"
+        },
+        {
+          "name": "エアフィルター",
+          "category": "air-filter",
+          "partNumbers": ["17801-21010"],
+          "description": "エンジンエアフィルター"
+        },
+        {
+          "name": "キャビンフィルター",
+          "category": "cabin-filter",
+          "partNumbers": ["87139-47010"],
+          "description": "エアコンフィルター"
+        },
+        {
+          "name": "ブレーキパッド",
+          "category": "brake-pad",
+          "partNumbers": ["04465-47010"],
+          "description": "フロントブレーキパッド"
+        },
+        {
+          "name": "ワイパー",
+          "category": "wiper",
+          "partNumbers": ["85222-47010", "85212-47010"],
+          "description": "フロントワイパー"
+        }
+      ]
+    },
+    {
+      "model": "プリウス",
+      "generation": "4代目",
+      "yearRange": "2015-2022",
+      "engineCode": "2ZR-FXE",
+      "bodyCode": "ZVW50",
+      "commonParts": [
+        {
+          "name": "オイルフィルター",
+          "category": "oil-filter",
+          "partNumbers": ["90915-YZZD3"],
+          "description": "エンジンオイルフィルター"
+        },
+        {
+          "name": "エアフィルター",
+          "category": "air-filter",
+          "partNumbers": ["17801-21020"],
+          "description": "エンジンエアフィルター"
+        },
+        {
+          "name": "キャビンフィルター",
+          "category": "cabin-filter",
+          "partNumbers": ["87139-47020"],
+          "description": "エアコンフィルター"
+        },
+        {
+          "name": "ブレーキパッド",
+          "category": "brake-pad",
+          "partNumbers": ["04465-47020"],
+          "description": "フロントブレーキパッド"
+        }
+      ]
+    },
+    {
+      "model": "アクア",
+      "generation": "1代目",
+      "yearRange": "2011-2021",
+      "engineCode": "1NZ-FXE",
+      "bodyCode": "NHP10",
+      "commonParts": [
+        {
+          "name": "オイルフィルター",
+          "category": "oil-filter",
+          "partNumbers": ["90915-YZZD4"],
+          "description": "エンジンオイルフィルター"
+        },
+        {
+          "name": "エアフィルター",
+          "category": "air-filter",
+          "partNumbers": ["17801-21030"],
+          "description": "エンジンエアフィルター"
+        },
+        {
+          "name": "キャビンフィルター",
+          "category": "cabin-filter",
+          "partNumbers": ["87139-47030"],
+          "description": "エアコンフィルター"
+        }
+      ]
+    },
+    {
+      "model": "ヴォクシー",
+      "generation": "2代目",
+      "yearRange": "2014-2022",
+      "engineCode": "2ZR-FAE",
+      "bodyCode": "ZRR80",
+      "commonParts": [
+        {
+          "name": "オイルフィルター",
+          "category": "oil-filter",
+          "partNumbers": ["90915-YZZD5"],
+          "description": "エンジンオイルフィルター"
+        },
+        {
+          "name": "エアフィルター",
+          "category": "air-filter",
+          "partNumbers": ["17801-21040"],
+          "description": "エンジンエアフィルター"
+        },
+        {
+          "name": "キャビンフィルター",
+          "category": "cabin-filter",
+          "partNumbers": ["87139-47040"],
+          "description": "エアコンフィルター"
+        }
+      ]
+    }
+  ]
+}

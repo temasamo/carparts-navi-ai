@@ -20,3 +20,6 @@ export const AffButton: React.FC<Props> = ({ mall, brand, query }) => {
     </a>
   );
 };
+
+
+
