@@ -83,7 +83,7 @@ export default function AIChat() {
       if (!vehicle) return null;
       
       // 部品名でフィルタリング
-      const matchingParts = vehicle.commonParts.filter(part => 
+      const matchingParts = vehicle.commonParts.filter((part: { name: string; category: string; partNumbers: string[]; description: string }) => 
         part.name.toLowerCase().includes(partName.toLowerCase()) ||
         part.description.toLowerCase().includes(partName.toLowerCase())
       );
