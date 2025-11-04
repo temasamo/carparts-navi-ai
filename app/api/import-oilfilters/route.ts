@@ -13,7 +13,7 @@ export async function POST() {
           product_name: item.product_name,
           price: item.price,
           url: item.url,
-          description: item.description || null
+          description: (item as any).description || null
         })
         .select()
         .single();
