@@ -76,6 +76,7 @@ export async function POST(req: Request) {
     }
 
     // --- Step4: レスポンス整形 ---
+    // データベースに既にアフィリエイトURLが保存されている場合はそのまま使用
     const results = products.map((p) => ({
       name: p.product_name,
       price: p.price,

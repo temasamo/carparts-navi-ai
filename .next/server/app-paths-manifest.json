@@ -1,5 +1,4 @@
 {
-  "/api/ai/oilfilter-chat/route": "app/api/ai/oilfilter-chat/route.js",
   "/page": "app/page.js",
   "/ai/oilfilter/page": "app/ai/oilfilter/page.js"
 }

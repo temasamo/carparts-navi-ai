@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function OilFilterChat() {
   const [input, setInput] = useState("");
-  const [messages, setMessages] = useState<{ role: string; content: string }[]>([]);
+  const [messages, setMessages] = useState<{ role: string; content: string; url?: string }[]>([]);
   const [loading, setLoading] = useState(false);
 
   const handleSend = async () => {
@@ -23,11 +23,15 @@ export default function OilFilterChat() {
 
       const data = await res.json();
 
-      if (data.answer) {
-        setMessages((prev) => [
-          ...prev,
-          { role: "assistant", content: data.answer },
-        ]);
+      if (data.results && data.results.length > 0) {
+        // 商品データをAI回答として追加
+        const item = data.results[0];
+        const msg = {
+          role: "assistant",
+          content: `『${data.carInfo.model}』には ${item.name}（${item.price}）が適合します。`,
+          url: item.url,
+        };
+        setMessages((prev) => [...prev, msg]);
       } else {
         setMessages((prev) => [
           ...prev,
@@ -62,7 +66,19 @@ export default function OilFilterChat() {
                   : "bg-green-100 text-left"
               }`}
             >
-              {msg.content}
+              <p>{msg.content}</p>
+
+              {/* 🔗 商品ページリンク */}
+              {msg.role === "assistant" && msg.url && (
+                <a
+                  href={msg.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-2 bg-orange-500 text-white text-sm px-3 py-1 rounded-lg hover:bg-orange-600"
+                >
+                  ▶ ヨロスト商品ページを見る
+                </a>
+              )}
             </div>
           ))}
         </div>
