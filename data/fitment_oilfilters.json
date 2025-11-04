@@ -1,0 +1,40 @@
+[
+  {
+    "product_name": "TO-1S オイルフィルター（トヨタ・レクサス・スズキなど）",
+    "price": "¥390",
+    "url": "https://www.yoro-store.com/?pid=141353-0001",
+    "fitments": [
+      {
+        "maker": "トヨタ",
+        "model": "アクア",
+        "engine": "M15A-FXE",
+        "year_range": "2021.07~"
+      },
+      {
+        "maker": "トヨタ",
+        "model": "クラウン",
+        "engine": "A25A-FXS",
+        "year_range": "2022.07~"
+      }
+    ]
+  },
+  {
+    "product_name": "HO-3 オイルフィルター（ホンダ車用）",
+    "price": "¥460",
+    "url": "https://www.yoro-store.com/?pid=141354-0002",
+    "fitments": [
+      {
+        "maker": "ホンダ",
+        "model": "アコード",
+        "engine": "K20A/K24A",
+        "year_range": "2004.02〜2008.12"
+      },
+      {
+        "maker": "ホンダ",
+        "model": "ヴェゼル",
+        "engine": "L15B",
+        "year_range": "2013.12〜2021.04"
+      }
+    ]
+  }
+]
